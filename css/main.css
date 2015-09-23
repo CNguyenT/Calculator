@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+/**************************
+	GENERAL
+***************************/
+body {
+	font-family: sans-serif;
+	color: #91aa9d;	
+	background-color: #fcfff5;
+}
+
+.wrapper,
+textarea,
+input {
+	border: 1px solid #d1dbbd;
+	box-sizing: border-box;/**/
+	color: #91aa9d;	
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 15px;
+	background-color: #fff;		
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+	display: block;
+	margin: 0 10px 0 0;
+	width: 100%;
+	padding: 10px 0;
+	box-sizing: border-box;/**/
+}
+
+textarea {
+	width: 100%;	
+	max-width: 365px;	
+	font-size: 1.5em;
+	text-align: right;
+}
+/**************************
+	NUMBER PAD
+***************************/
+.num-buttons {
+	margin: 10px 0;
+	width: 100%;
+	max-width: 400px;	
+	box-sizing: border-box;/**/
+}
+
+input {
+	padding: 20px 25px;
+	margin: 5px 0;
+	background-color: #fff;
+	color: #91aa9d;	
+	width: 24%;
+}
+
+input:hover {
+	background-color: #d1dbbd;
+}
